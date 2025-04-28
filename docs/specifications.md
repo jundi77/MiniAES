@@ -198,8 +198,6 @@ In 3rd round, it's:
 
 ## General Decryption Flow
 
-## General Decryption Flow
-
 ```mermaid
 flowchart TD
     A[Input 2-byte Block] --> B[XOR with Round 3 Key]
