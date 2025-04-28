@@ -270,7 +270,7 @@ flowchart TD
 
 ### CBC Block Mode
 
-This mode of operation operate on size-free input and output, theoretically. Padding is using random pad, per 2 bytes. IV (Initialisation Vector) is prepended to each ciphertext, with random value from 0 to 0xFF.
+This mode of operation operate on size-free input and output, theoretically. Padding is using random pad, per 2 bytes. IV (Initialisation Vector) is prepended to each ciphertext, with random value from 0 to 0xFFFF.
 
 For encryption, each block is XOR'ed with previous ciphertext block. If it's the first in line, it's XOR'ed with IV.
 
