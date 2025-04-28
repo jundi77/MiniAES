@@ -244,7 +244,7 @@ This mode of operation operate on exactly 2 bytes input and output. Subsequently
 
 ### ECB Block Mode
 
-This mode of operation operate on size-free input and output, theoretically. Padding is using random pad, per 2 bytes. IV (Initialisation Vector) is prepended to each ciphertext, with random value from 0 to 0xFF. Each block is encrypted and decrypted independent of each other.
+This mode of operation operate on size-free input and output, theoretically. Padding is using random pad, per 2 bytes. Each block is encrypted and decrypted independent of each other.
 
 Flowchart for encryption is as follows:
 
