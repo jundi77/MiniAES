@@ -398,7 +398,7 @@ If unit test is ran, it will state average state change with key 0x000 and state
 Average state change in nonblock decryption with key 0x000 and state from 0x0000 to 0xFFFF is 8.000122072175174
 ```
 
-The recorded value from my test is 8.000122072175174, which if represented with percent, equals to 50.00076295109483% (average state change divided by 16, 16 from bit count in 0xFFFF). Based on strict avalanche criterion, this change is good enough (Avalanche effect, [wikipedia](https://en.wikipedia.org/wiki/Avalanche_effect)).
+The recorded value from my test is 8.000122072175174, which if represented with percent, equals to 50.00076295109483% (average state change divided by 16, 16 from bit count in 0xFFFF). Based on strict avalanche criterion, this change is good enough (Avalanche effect, [wikipedia](https://en.wikipedia.org/wiki/Avalanche_effect)). Unfortunately, i only tested 0x0000-0xFFFF plaintext with 0x0000 key, so who knows.
 
 
 ## Advantages
