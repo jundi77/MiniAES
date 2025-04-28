@@ -107,8 +107,6 @@ in there, key is word. here, it is byte:
 
 ## Key Expansion
 
-## Key Expansion Flow
-
 ![Key Expansion Flow](./images/Key%20Expansion.png)
 
 Key is expanded with this rules:
@@ -157,8 +155,6 @@ Remember that we are doing this in GF(2^4).
 remember that instead of word, this key expansion works
 with 2 byte.
 ```
-
-## General Encryption Flow
 
 ## General Encryption Flow
 
